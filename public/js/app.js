@@ -32635,8 +32635,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Jailton Dantas\Documents\estudos\clonetube\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Jailton Dantas\Documents\estudos\clonetube\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! E:\projetos\projetos-praticos\clonetube\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! E:\projetos\projetos-praticos\clonetube\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
