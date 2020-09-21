@@ -3,17 +3,15 @@
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
 use App\Channel;
-use App\Subscription;
-use App\User;
+use App\Model;
 use Faker\Generator as Faker;
 
-$factory->define(Subscription::class, function (Faker $faker) {
+$factory->define(Channel::class, function (Faker $faker) {
     return [
+        'name' => $faker->sentence(3),
         'user_id' => function() {
             return factory(User::class)->create()->id;
         },
-        'channel_id' => function() {
-            return factory(Channel::class)->create()->id;
-        },
+        'description'=> $faker->sentence(30)
     ];
 });

@@ -39,6 +39,14 @@
                                     <p class="text-center">
                                         {{ $channel->description }}
                                     </p>
+
+                                    <div class="text-center">
+                                        <subscribe-button :channel="{{ $channel }}" :initial-subscriptions="{{ $channel->subscriptions }}" inline-template>
+                                            <button @click="toggleSubscription"  class="btn btn-danger">
+                                                @{{ owner ? '' : subscribed ? 'Cancelar Inscrição' : 'Inscrever' }} @{{ count }} @{{ owner ? 'Inscritos': '' }}
+                                            </button>
+                                        </subscribe-button>
+                                    </div>
                                 </div>
 
 

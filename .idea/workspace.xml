@@ -20,17 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaf5d2fb-56b5-47e1-8aec-c225341f4602" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/clonetube.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/clonetube.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Channel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Channel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ChannelController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ChannelController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SubscriptionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SubscriptionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Subscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Subscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/SubscriptionFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/SubscriptionFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_19_231552_create_subscriptions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_19_231552_create_subscriptions_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/channels/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/channels/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +161,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1hHelKO1d51E8bjtnviQSTQGXAO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -192,7 +197,8 @@
       <workItem from="1599672596968" duration="3415000" />
       <workItem from="1600258624788" duration="2789000" />
       <workItem from="1600434641291" duration="1565000" />
-      <workItem from="1600548173970" duration="7307000" />
+      <workItem from="1600548173970" duration="10366000" />
+      <workItem from="1600645388265" duration="4104000" />
     </task>
     <servers />
   </component>
@@ -209,6 +215,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="202" key="#com.intellij.ide.util.MemberChooser" timestamp="1600555715535">
